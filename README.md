@@ -21,7 +21,7 @@ The project focuses on **frontend best practices**, reusable components, and use
 * **Styling:** CSS 
 * **State Management:** React Hooks (useState, useEffect)
 * **Version Control:** Git & GitHub
-* **Deployment:** Netlify / Vercel
+* **Deployment:** Vercel
 
 ---
 
@@ -29,14 +29,19 @@ The project focuses on **frontend best practices**, reusable components, and use
 
 ```
 chefclaude/
-├── public/
+├── api/recipe.js
 ├── src/
 │   ├── components/
-│   ├── pages/
-│   ├── assets/
-│   ├── App.jsx
-│   ├── index.js
-│   └── styles.css
+|   |_________ ClaudeRecipe.jsx
+|   |_________ Header.jsx
+|   |_________IngredientList.jsx
+│   |__ ai.js
+│   |__ assets/
+│   |__ App.jsx
+│   |__ index.jsx
+|   |__ index.css
+│   |__ main.jsx
+|   |__recipeCode.md
 ├── package.json
 └── README.md
 ```
@@ -76,7 +81,7 @@ The app will run at: `http://localhost:3000`
 
 ## 🌐 Live Demo
 
-🔗 Live URL: *Add your deployed link here*
+🔗 Live URL: `https://chefclaude-tobp.vercel.app/`
 
 ---
 
